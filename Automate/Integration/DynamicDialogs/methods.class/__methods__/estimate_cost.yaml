@@ -1,0 +1,12 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: estimate_cost
+    display_name: estimate_cost
+    description: 
+    scope: instance
+    language: ruby
+    location: inline
+  inputs: []

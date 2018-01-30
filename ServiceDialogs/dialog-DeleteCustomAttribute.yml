@@ -1,0 +1,60 @@
+---
+- description: Delete Custom Attribute
+  buttons: submit,cancel
+  label: Delete Custom Attribute
+  blueprint_id: 
+  dialog_tabs:
+  - description: General
+    display: edit
+    label: General
+    display_method: 
+    display_method_options: 
+    position: 0
+    dialog_groups:
+    - description: Genera
+      display: edit
+      label: General
+      display_method: 
+      display_method_options: 
+      position: 0
+      dialog_fields:
+      - name: attribute_name
+        description: Select attribute to be deleted
+        data_type: 
+        notes: 
+        notes_display: 
+        display: edit
+        display_method: 
+        display_method_options: {}
+        required: false
+        required_method: 
+        required_method_options: {}
+        default_value: 
+        values:
+        - - 
+          - "<Script error>"
+        values_method: 
+        values_method_options: {}
+        options:
+          :force_multi_value: false
+        label: Select the custom attribute
+        position: 0
+        validator_type: 
+        validator_rule: 
+        reconfigurable: 
+        dynamic: true
+        show_refresh_button: 
+        load_values_on_init: 
+        read_only: false
+        auto_refresh: 
+        trigger_auto_refresh: 
+        visible: true
+        type: DialogFieldDropDownList
+        resource_action:
+          action: 
+          resource_type: DialogField
+          ae_namespace: Integration/CustomAttributes
+          ae_class: DynamicDialog
+          ae_instance: list_attributes
+          ae_message: 
+          ae_attributes: {}

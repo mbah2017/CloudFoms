@@ -1,0 +1,12 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: delete_custom
+    display_name: " delete_custom "
+    description: 
+    scope: instance
+    language: ruby
+    location: inline
+  inputs: []

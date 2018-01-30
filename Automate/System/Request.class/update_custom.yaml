@@ -1,0 +1,12 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: update_custom
+    name: update_custom
+    inherits: 
+    description: update_custom
+  fields:
+  - rel3:
+      value: "/Integration/CustomAttributes/Methods/create_custom"
